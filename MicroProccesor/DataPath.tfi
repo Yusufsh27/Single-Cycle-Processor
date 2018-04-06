@@ -1,0 +1,23 @@
+
+
+
+// Instantiate the module
+DataPath instance_name (
+    .CLK(CLK), 
+    .reset(reset), 
+    .memtoreg(memtoreg), 
+    .PCSrc(PCSrc), 
+    .alusrc(alusrc), 
+    .RegDst(RegDst), 
+    .RegWrite(RegWrite), 
+    .Jump(Jump), 
+    .alucontrol(alucontrol), 
+    .zero(zero), 
+    .pc(pc), 
+    .Instr(Instr), 
+    .aluout(aluout), 
+    .writedata(writedata), 
+    .readdata(readdata)
+    );
+
+

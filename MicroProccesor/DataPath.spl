@@ -1,0 +1,21 @@
+[Inputs]
+CLK
+reset
+memtoreg
+PCSrc
+alusrc
+RegDst
+RegWrite
+Jump
+=alucontrol[2:0]=
+=Instr[31:0]=
+=readdata[31:0]=
+[Outputs]
+zero
+=pc[31:0]=
+=aluout[31:0]=
+=writedata[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel DataPath
+

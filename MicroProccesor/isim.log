@@ -1,0 +1,22 @@
+ISim log file
+Running: Y:\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\Top_TestBench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb Y:/School/College/4.Senior/Spring Semester/CompE475/Spring 2017/HW2/MicroProccesor/Top_TestBench_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "//Mac/Dropbox/School/College/4.Senior/Spring Semester/CompE475/Spring 2017/HW2/MicroProccesor/DataPath.v" Line 27.  For instance U02/U02/, width 1 of formal port PC is not equal to width 32 of actual signal PC.
+WARNING: File "//Mac/Dropbox/School/College/4.Senior/Spring Semester/CompE475/Spring 2017/HW2/MicroProccesor/DataPath.v" Line 30.  For instance U02/U02/, width 1 of formal port PCPlus1Out is not equal to width 32 of actual signal PCPlus1Out.
+WARNING: File "//Mac/Dropbox/School/College/4.Senior/Spring Semester/CompE475/Spring 2017/HW2/MicroProccesor/DataPath.v" Line 31.  For instance U02/U04/, width 1 of formal port SignImm is not equal to width 32 of actual signal SignImm.
+WARNING: File "//Mac/Dropbox/School/College/4.Senior/Spring Semester/CompE475/Spring 2017/HW2/MicroProccesor/DataPath.v" Line 30.  For instance U02/U04/, width 1 of formal port PCPlus1Out is not equal to width 32 of actual signal PCPlus1Out.
+WARNING: File "//Mac/Dropbox/School/College/4.Senior/Spring Semester/CompE475/Spring 2017/HW2/MicroProccesor/DataPath.v" Line 30.  For instance U02/U04/, width 1 of formal port PCBranchOut is not equal to width 32 of actual signal PCBranchOut.
+WARNING: For instance U02/U08/, width 32 of formal port One is not equal to width 5 of actual.
+WARNING: For instance U02/U08/, width 32 of formal port Zero is not equal to width 5 of actual.
+WARNING: File "//Mac/Dropbox/School/College/4.Senior/Spring Semester/CompE475/Spring 2017/HW2/MicroProccesor/DataPath.v" Line 29.  For instance U02/U08/, width 32 of formal port Out is not equal to width 5 of actual signal WriteReg.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+WARNING: File reg.mem referenced on //Mac/Dropbox/School/College/4.Senior/Spring Semester/CompE475/Spring 2017/HW2/MicroProccesor/RegisterFile.v at line 33 cannot be opened for reading. Please ensure that this file is available in the current working directory.Finished circuit initialization process.
+Stopped at time : 210 ns : File "//Mac/Dropbox/School/College/4.Senior/Spring Semester/CompE475/Spring 2017/HW2/MicroProccesor/Top_TestBench.v" Line 52

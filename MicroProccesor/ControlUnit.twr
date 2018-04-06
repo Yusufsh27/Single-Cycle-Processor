@@ -1,0 +1,130 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr
+ControlUnit.pcf
+
+Design file:              ControlUnit.ncd
+Physical constraint file: ControlUnit.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Funct<0>       |ALUControl<0>  |    6.745|
+Funct<0>       |ALUControl<1>  |    7.647|
+Funct<0>       |ALUControl<2>  |    6.872|
+Funct<1>       |ALUControl<0>  |    7.546|
+Funct<1>       |ALUControl<1>  |    6.279|
+Funct<1>       |ALUControl<2>  |    7.141|
+Funct<2>       |ALUControl<0>  |    7.357|
+Funct<2>       |ALUControl<1>  |    7.903|
+Funct<2>       |ALUControl<2>  |    7.128|
+Funct<3>       |ALUControl<0>  |    7.740|
+Funct<3>       |ALUControl<1>  |    7.832|
+Funct<4>       |ALUControl<0>  |    7.109|
+Funct<4>       |ALUControl<1>  |    8.147|
+Funct<4>       |ALUControl<2>  |    7.372|
+Funct<5>       |ALUControl<0>  |    7.427|
+Funct<5>       |ALUControl<1>  |    8.490|
+Funct<5>       |ALUControl<2>  |    7.715|
+Opcode<0>      |ALUControl<0>  |    8.601|
+Opcode<0>      |ALUControl<1>  |    7.394|
+Opcode<0>      |ALUControl<2>  |    8.249|
+Opcode<0>      |ALUSrc         |    7.737|
+Opcode<0>      |Jump           |    6.638|
+Opcode<0>      |MemWrite       |    6.608|
+Opcode<0>      |MemtoReg       |    6.255|
+Opcode<0>      |PCSrc          |    7.314|
+Opcode<0>      |RegDst         |    6.833|
+Opcode<0>      |RegWrite       |    7.963|
+Opcode<1>      |ALUControl<0>  |    8.578|
+Opcode<1>      |ALUControl<1>  |    7.371|
+Opcode<1>      |ALUControl<2>  |    7.297|
+Opcode<1>      |ALUSrc         |    7.312|
+Opcode<1>      |Jump           |    6.802|
+Opcode<1>      |MemWrite       |    7.015|
+Opcode<1>      |MemtoReg       |    6.464|
+Opcode<1>      |PCSrc          |    6.587|
+Opcode<1>      |RegDst         |    6.810|
+Opcode<1>      |RegWrite       |    7.538|
+Opcode<2>      |ALUControl<0>  |    8.094|
+Opcode<2>      |ALUControl<1>  |    6.887|
+Opcode<2>      |ALUControl<2>  |    7.286|
+Opcode<2>      |ALUSrc         |    7.382|
+Opcode<2>      |Jump           |    6.394|
+Opcode<2>      |MemWrite       |    6.997|
+Opcode<2>      |MemtoReg       |    6.378|
+Opcode<2>      |PCSrc          |    6.637|
+Opcode<2>      |RegDst         |    6.326|
+Opcode<2>      |RegWrite       |    7.608|
+Opcode<3>      |ALUControl<0>  |    8.326|
+Opcode<3>      |ALUControl<1>  |    7.119|
+Opcode<3>      |ALUControl<2>  |    7.882|
+Opcode<3>      |ALUSrc         |    6.744|
+Opcode<3>      |Jump           |    6.725|
+Opcode<3>      |MemWrite       |    6.751|
+Opcode<3>      |MemtoReg       |    6.662|
+Opcode<3>      |PCSrc          |    6.947|
+Opcode<3>      |RegDst         |    6.558|
+Opcode<3>      |RegWrite       |    6.970|
+Opcode<4>      |ALUControl<0>  |    8.357|
+Opcode<4>      |ALUControl<1>  |    7.150|
+Opcode<4>      |ALUControl<2>  |    7.952|
+Opcode<4>      |ALUSrc         |    7.190|
+Opcode<4>      |Jump           |    6.687|
+Opcode<4>      |MemWrite       |    7.513|
+Opcode<4>      |MemtoReg       |    7.454|
+Opcode<4>      |PCSrc          |    7.017|
+Opcode<4>      |RegDst         |    6.589|
+Opcode<4>      |RegWrite       |    7.416|
+Opcode<5>      |ALUControl<0>  |    8.185|
+Opcode<5>      |ALUControl<1>  |    6.978|
+Opcode<5>      |ALUControl<2>  |    7.622|
+Opcode<5>      |ALUSrc         |    7.189|
+Opcode<5>      |Jump           |    6.888|
+Opcode<5>      |MemWrite       |    7.240|
+Opcode<5>      |MemtoReg       |    6.894|
+Opcode<5>      |PCSrc          |    6.687|
+Opcode<5>      |RegDst         |    6.417|
+Opcode<5>      |RegWrite       |    7.415|
+Zero           |PCSrc          |    6.074|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Mar 05 20:30:19 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 237 MB
+
+
+

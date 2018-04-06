@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "Y:/School/College/4.Senior/Spring Semester/CompE475/Spring 2017/HW2/MicroProccesor/Top_TestBench_isim_beh.exe" -prj "Y:/School/College/4.Senior/Spring Semester/CompE475/Spring 2017/HW2/MicroProccesor/Top_TestBench_beh.prj" "work.Top_TestBench" "work.glbl" 

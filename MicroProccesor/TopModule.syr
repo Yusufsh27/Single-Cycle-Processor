@@ -1,0 +1,186 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Reading design: TopModule.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "TopModule.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "TopModule"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : TopModule
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "\\mac\dropbox\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\SignExtend.v" into library work
+Parsing module <SignExtend>.
+Analyzing Verilog file "\\mac\dropbox\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\RegisterFile.v" into library work
+Parsing module <RegisterFile>.
+Analyzing Verilog file "\\mac\dropbox\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\ProgramCounter.v" into library work
+Parsing module <ProgramCounter>.
+Analyzing Verilog file "\\mac\dropbox\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\PCPlus1.v" into library work
+Parsing module <PCPlus1>.
+Analyzing Verilog file "\\mac\dropbox\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\PCBranch.v" into library work
+Parsing module <PCBranch>.
+Analyzing Verilog file "\\mac\dropbox\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\MainMux.v" into library work
+Parsing module <MainMux>.
+Analyzing Verilog file "\\mac\dropbox\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\MainDecoder.v" into library work
+Parsing module <MainDecoder>.
+WARNING:HDLCompiler:568 - "\\mac\dropbox\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\MainDecoder.v" Line 38: Constant value is truncated to fit in <9> bits.
+Analyzing Verilog file "\\mac\dropbox\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\ALUDecoder.v" into library work
+Parsing module <ALUDecoder>.
+Analyzing Verilog file "\\mac\dropbox\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "\\mac\dropbox\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\DataPath.v" into library work
+Parsing module <DataPath>.
+Analyzing Verilog file "\\mac\dropbox\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\ControlUnit.v" into library work
+Parsing module <ControlUnit>.
+Analyzing Verilog file "\\mac\dropbox\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\MIPS.v" into library work
+Parsing module <MIPS>.
+Analyzing Verilog file "\\mac\dropbox\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\InstructionMem.v" into library work
+Parsing module <InstructionMem>.
+Analyzing Verilog file "\\mac\dropbox\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\DataMemory.v" into library work
+Parsing module <DataMemory>.
+Analyzing Verilog file "\\mac\dropbox\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\TopModule.v" into library work
+Parsing module <TopModule>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <TopModule>.
+
+Elaborating module <MIPS>.
+
+Elaborating module <ControlUnit>.
+
+Elaborating module <MainDecoder>.
+
+Elaborating module <ALUDecoder>.
+
+Elaborating module <DataPath>.
+
+Elaborating module <ProgramCounter(Width=32)>.
+
+Elaborating module <PCPlus1>.
+
+Elaborating module <SignExtend>.
+
+Elaborating module <PCBranch>.
+
+Elaborating module <MainMux(W=32)>.
+
+Elaborating module <RegisterFile(addWidth=5,dataWidth=32)>.
+
+Elaborating module <MainMux(W=5)>.
+
+Elaborating module <ALU>.
+
+Elaborating module <InstructionMem>.
+ERROR:HDLCompiler:990 - "\\mac\dropbox\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\InstructionMem.v" Line 27: Cannot open file \\MacDropboxSchoolCollege\004.SeniorSpring SemesterCompE475Spring 2017HW2MicroProccesorinstruction.txt
+Module InstructionMem remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "\\mac\dropbox\School\College\4.Senior\Spring Semester\CompE475\Spring 2017\HW2\MicroProccesor\InstructionMem.v" Line 21: Empty module <InstructionMem> remains a black box.
+
+Elaborating module <DataMemory>.
+Reading initialization file \"dmem.mem\".
+--> 
+
+Total memory usage is 183828 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

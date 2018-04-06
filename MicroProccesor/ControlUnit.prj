@@ -1,0 +1,3 @@
+verilog work "MainDecoder.v"
+verilog work "ALUDecoder.v"
+verilog work "ControlUnit.v"
